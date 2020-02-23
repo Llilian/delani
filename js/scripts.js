@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#form34A").submit(function(event){
+  $("form").submit(function(event){
     // event.preventDefault();
     var name = $("input#name1").val();
     var email = $("input#name0").val();
