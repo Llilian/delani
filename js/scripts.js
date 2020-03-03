@@ -17,8 +17,11 @@ $().ready(function(){
     $("#product").toggle();
 });
 });
-// $().ready(function(){
-//   $(".ink").click(function (){
-//     $("#project").toggle();
-//     $("#project").toggle();
-// });
+$().ready(function(){
+  $(".project").mouseenter(function (){
+    $(this).show()
+})
+  $(".project").mouseleave(function (){
+    $(this).hide()
+});
+});
