@@ -18,10 +18,5 @@ $().ready(function(){
 });
 });
 $().ready(function(){
-  $(".project").mouseenter(function (){
-    $(this).show()
-})
-  $(".project").mouseleave(function (){
-    $(this).hide()
-});
+  $(this).("").fadeToogle(1000,"linear");
 });
