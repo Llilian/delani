@@ -131,7 +131,7 @@ footer{
 footer p{
   margin-top: 10px;
 }
-#product, #development, #design{  
+#product, #development, #design{
   font-family: 'Copse', serif;
   font-size: 16px;
 }
@@ -188,7 +188,7 @@ footer p{
     margin-left: 4%;
     width: 84%;
   }
-}
+  
 @media only screen and (min-width: 825px){
 
   .col-md-3 img{
