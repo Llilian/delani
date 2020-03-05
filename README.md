@@ -8,7 +8,7 @@ This project is a web application for Delani studio that shows details about the
 
 
 ## Live Page 
-https://Llilian.github.io/Delani-Studio 
+https://llilian.github.io/delani/
 
 ## Technologies Used
 

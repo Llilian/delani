@@ -1,16 +1,29 @@
 $(document).ready(function(){
-  $("form").submit(function(event){
-    // event.preventDefault();
-    var name = $("input#name1").val();
-    var email = $("input#name0").val();
-    var message = $("textarea#comment").val();
-    if ($("input#name1").val() && $("input#name0").val()){
-      alert (name + ", we have received your message. Thank you for reaching out to us.");
-    }
-    else {
-      alert("Please enter your name and email!");
-    }
-    
+  $("#development-image").click(function(){
+    $("#development-image").slideDown('1000').hide('800');
+    $("#development").show('1500');
+    $("#development p").show();
   });
-
+  $("#development").click(function(){
+    $("#development-image").slideDown('1100');
+    $("#development").slideUp('100');
+  });
+  $("#design-image").click(function(){
+    $("#design-image").slideDown('1000').hide('1200');
+    $("#design").show('1000');
+    $("#design p").show();
+  });
+  $("#design").click(function(){
+    $("#design").slideUp('1200');
+    $("#design-image").slideDown('1200');
+  });
+  $("#product-image").click(function(){
+    $("#product-image").slideDown('1500').hide('1000');
+    $("#product").show('1500');
+    $("#product p").show();
+  });
+  $("#product").click(function(){
+    $("#product").slideUp('1500');
+    $("#product-image").slideDown('1500');
+  });
 });
